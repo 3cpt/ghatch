@@ -1,0 +1,15 @@
+{
+    "name": "GHatch",
+    "description": "Open commit patch details",
+    "version": "1.0",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "default_icon": "icon-19.png"
+    },
+    "permissions": [
+        "tabs"
+    ]
+}
